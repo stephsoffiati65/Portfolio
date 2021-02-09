@@ -1,0 +1,114 @@
+
+/* Navigation */
+
+@media (max-width:1200px) {
+
+    #navigation a {
+
+        font-size: 20px;
+
+    }
+
+    #logo {
+
+        transform: scale(0.8);
+    }
+
+}
+
+@media (max-width:800px) {
+
+    #navigation a:not(#icon) {
+
+        display: none;
+
+    }
+
+    #icon{
+
+        display: block;
+        cursor: pointer;
+        transform: scale(2);
+        line-height: 100px;
+    }
+
+}
+
+/* Présentation */
+
+@media (max-width:1800px) {
+
+    #presentation {
+
+        display: block;
+        height: 1800px;
+        padding-top: 80px;
+    }
+
+    #profil{
+
+        margin-top: 80px;
+        width: 500px;
+    }
+
+    .titre{
+
+        font-size: 35px;
+    }
+}
+
+@media (max-width:1570px) {
+
+    #presentation{
+
+        height: 1900px;
+    }
+}
+
+@media (max-width:1200px) {
+
+    .titre{
+
+        font-size: 25px;
+    }
+
+    #presentation{
+
+        height: 2000px;
+    }
+
+}
+
+
+
+/* Compétences */
+
+@media (max-width:1850px) {
+
+    #competences{
+
+        height: 1500px;
+    }
+
+    #barres {
+
+        flex-direction: column;
+        margin: auto;
+    }
+
+    #anoter{
+
+        margin: 50px auto;
+    }
+
+    #professionnelles {
+
+        
+    }
+
+
+    #personnelles{
+
+
+    }
+}
