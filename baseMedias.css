@@ -1,0 +1,583 @@
+
+/* Burger navigation
+================================================== */
+
+@media (max-width: 1420px){
+    #burger li {
+        width: 100%; 
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px){
+
+    #burger li a{
+        font-size: 40px; 
+    }
+
+    #burger li{
+        margin: 10px auto;
+    }
+
+    .menu li a:before{
+        font-size: 145px;
+    }
+      
+}
+
+
+@media (max-width: 500px){
+    #burger li a{
+        font-size: 40px; 
+    }
+}
+
+/* Header
+================================================== */
+
+@media screen and (min-width: 1200px) and (max-width: 1300px){
+
+    header {
+      height: 590px;
+      padding-top: 20%;
+    }
+
+    #halo{
+        width: 150px;
+        height: 150px;  
+    }
+
+    #logo {
+        width: 150px;
+    }
+
+    h1 svg{
+        width: 450px
+    }
+
+    #info p span{
+        font-size: 20px;
+    }
+
+    #CTA{
+        justify-content: space-between;
+    }
+
+    #CTA a{
+        font-size: 10px;
+    }
+
+    #networks{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        margin-top: 120px;
+        width: 20%;
+        min-width: 400px;
+        text-align: center;
+    }
+
+    #networks li a{   
+        font-size: 25px;  
+    }
+
+    .hrHead {
+        margin: 15px auto 0 auto;
+    }
+      
+}
+
+
+@media (max-width: 850px){
+
+    header {
+        padding-top: 20%;
+      }
+
+      #info p {
+        font-size: 18px;
+      }
+
+      #CTA button {
+        font-size: 12px;
+      }
+
+    .jumpDev{
+      display: block;
+    }
+
+    .paragraph{
+        line-height: 30px;
+    }
+
+    #logo{
+        width: 200px;
+    }
+
+    #halo{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 740px){
+    svg{
+      width: 500px;
+    }
+}
+
+@media (max-width: 680px){
+    #mentionsLegales .paragraph{
+        font-size: 18px;
+    }
+}
+
+
+@media (max-width: 550px){
+
+    #info p {
+        font-size: 16px;
+    }
+
+    header {
+        padding-top: 15%;
+    }
+    
+    svg{
+      width: 400px;
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+    .classic{
+        
+        font-size: 8px;
+        border: 1px solid #B0F2B6;
+        margin-top: 30px;
+    }
+
+
+}
+
+@media (max-width: 480px){
+
+
+    svg{
+      width: 350px;
+    }
+
+    header {
+        padding-top: 35%;
+      }
+
+    #CTA{
+        margin-bottom: 420px; 
+      }
+
+    #CTA button {
+        font-size: 10px;
+      }
+
+    .paragraph{
+        letter-spacing: 0;
+        font-size: 15px;
+    }
+
+    #contain img {
+        width: 150px;
+        margin-top: 170%;
+    }
+
+    #logo{
+        width: 140px;
+        margin-bottom: 0px;
+    }
+
+    #halo{
+        width: 140px;
+        height: 140px;
+    }
+
+    #career img {
+        width: 200px;
+        height: 200px;
+    }
+
+
+    .loader 
+    {
+        position: relative;
+        height  : 250px;
+    }
+
+    .burgerIcon img, .xIcon img {
+        width: 40px;
+    }
+
+    #networks{
+        margin-top: 235px;
+    }
+
+}
+
+/* A propos
+================================================== */
+
+@media (max-width: 1738px){
+    #career{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+
+    #career ul li{
+        margin-left: 20%;
+    }
+
+    .hrResp{
+        display: block;
+    }
+
+    .slide-in-right, .slide-in-right-dos, .slide-in-left{
+        transform: none;
+        opacity: 1;
+      }
+       
+}
+
+@media (max-width: 950px){
+
+    #micro {
+        flex-direction: column;
+    }
+
+    .hrResp{
+        width: 500px;
+    }
+
+    #career ul li{
+        margin-left: 15%;
+        font-size: 19px;
+    }
+}
+
+
+@media (max-width: 700px){
+    .icon-graduation{
+        display: none;
+    }
+
+    .icon-briefcase{
+        display: none;
+    }
+
+    .hrResp{
+        display: none;
+    }
+
+    .bigIcon-graduation{
+        display: block;
+    }
+
+    .bigIcon-briefcase{
+        display: block;
+    }
+
+    #career ul li{
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 600px){
+  
+    .jumpAbout{
+        display: block;
+       
+    }
+
+    #career ul li{
+    margin-left: 20px;
+    font-size: 21px;
+    } 
+    
+    #histoire p{
+        font-size: 18px;  
+    }
+
+    #micro img{
+        width: 130px;
+        height: 130px; 
+      }
+ }
+
+/* Compétences
+================================================== */
+
+@media (max-width: 1500px){
+  
+   .pourcent {
+    padding: 0px 85px;
+    }
+        
+}
+
+ @media (max-width: 1400px){
+  
+    .pourcent {
+     padding: 0px 65px;
+    }
+         
+}
+
+@media (max-width: 1250px){
+  
+    .pourcent {
+     padding: 0px 40px;
+    }       
+}
+
+@media (max-width: 1020px){
+  
+    .pourcent {
+     padding: 0px 90px;
+    }       
+}
+
+/* Projets
+================================================== */
+
+@media (max-width: 550px){
+  
+    #projectGrid {
+       width: 90%;
+    }
+    
+    .project img {
+       width: 300px;
+       height: 300px;  
+     }
+     
+     .project .folio-title {
+       margin-top: 100px
+   }
+
+   .slide-in-left-dos{
+    transition: none;
+    opacity: 1;
+  }
+
+  .project .folio-title {
+	font-size: 17px;
+    margin-bottom: 20px;
+  }
+
+  .project .folio-types {
+	font-size: 15px;	
+  }
+}
+
+/* Services
+================================================== */
+
+
+@media (max-width: 1440px){
+  
+    .serviceContainer {   
+        width: 40%;  
+      }      
+}
+
+@media (max-width: 1200px){
+  
+         #stepsContainer{ 
+    padding: 50px 0px 0px 0px;
+  } 
+} 
+
+
+@media (max-width: 1000px){
+  
+    .serviceContainer {
+        
+        width: 60%;
+        min-width: 0;
+    } 
+    
+    .content h3 {
+        font-size: 20px;
+    } 
+}
+
+@media (max-width: 850px){
+  
+    .content p {
+        font-size: 14px;
+      }     
+}
+
+
+@media (max-width: 628px){
+
+    .serviceContainer {
+        
+        width: 80%;
+        min-width: 0;
+    } 
+  
+    .content h3 {
+        font-size: 18px;
+    } 
+    
+    .classic2{
+        padding: 5px;
+        margin-bottom: 10px;
+      }
+}
+
+@media (max-width: 480px){
+
+    #eCommerce{
+        display:block
+    }
+}
+
+/* Contact
+================================================== */
+
+@media (max-width: 1600px){
+  
+    #contacts ul{
+        display: block;
+        text-align: center;   
+    } 
+      
+    #contacts ul li p{
+    width: 40%;
+    margin-bottom: 50px;
+    }
+
+    #contactForm {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+    }
+  }
+
+
+@media (max-width: 780px){
+  
+    #contacts ul li p{
+        width: 60%;
+      }
+
+    #contacts iframe {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+      }
+
+  }
+
+  @media (max-width: 550px){
+  
+    #contacts ul li p{
+        width: 90%;
+      }
+
+      #contactForm button{
+        background: linear-gradient(to right,  #a3e0a8, #475f49);;
+      }
+  }
+
+  /* Footer
+================================================== */
+
+@media (max-width: 1150px){
+  
+    #footer ul:nth-child(1) li{
+        font-size: 18px;
+    }   
+}
+
+@media (max-width: 950px){
+  
+    #footer{
+        display: block;
+    }
+
+    #footer ul{
+        margin: 0 auto;    
+    }
+
+    #footer ul:nth-child(1){
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }  
+}
+
+@media (max-width: 780px){
+  
+    #footer ul:nth-child(1) li{
+        font-size: 15px;
+        margin: auto;
+    }   
+}
+
+@media (max-width: 600px){
+  
+   #conception{
+       display: none;
+   }  
+}
+
+
+  /* Bouton Back to top
+================================================== */
+
+@media (max-width: 550px){
+  
+    #btt{
+        height: 30px;
+        width: 30px;
+    } 
+ }
+
+ /* Message envoyé
+================================================== */
+
+@media (max-width: 400px){
+  
+    #h2Reponse{
+        font-size: 28px;
+    } 
+
+    #reponse{
+        font-size: 18px;
+    } 
+ }
+
+ /* Mentions Légales
+================================================== */
+
+@media (max-width: 1400px){
+
+    #mentionsLegales h2, #mentionsLegales h3{
+        font-size: 25px; 
+    }
+
+    #mentionsLegales{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1200px){
+
+    #mentionsLegales h2, #mentionsLegales h3{
+        font-size: 20px; 
+    }
+
+    #mentionsLegales{
+        font-size: 18px;
+    }
+}
